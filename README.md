@@ -69,3 +69,5 @@ ionic.views.Slider = ionic.views.View.inherit({
 ###四.直接引入修改好的js片段，覆盖原来的slidebox代码
 
 需要注意的是，在index页面的引入顺序，sliderView.js一定要在ionic.bundle.js之后引入，这样才能实现覆盖。
+
+下载链接<https://github.com/SimonZhangITer/ionic_slidebox/blob/master/slidebox.js>
