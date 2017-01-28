@@ -1,7 +1,7 @@
 #【ionic框架bug】slidebox在使用model或popover后width变为0的解决方案
 
 ##问题描述
-> 如果在silideBox上使用缓存，那么在进入另一个state之后，打开一个Popover或者一个Modal，再返回原来的页面，则slideBox的width变为0，即看不见silideBox的内容了。
+> 如果在silideBox上使用缓存，那么在进入另一个state之后，打开一个Popover或者一个Modal，再返回原来的页面，则slideBox的width变为0，即看不见silideBox的内容了 。
 
 #解决方案
 ###一.使用ng-if
