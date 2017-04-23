@@ -2,7 +2,7 @@
 
 ##问题描述
 > 如果在silideBox上使用缓存，那么在进入另一个state之后，打开一个Popover或者一个Modal，再返回原来的页面，则slideBox的width变为0，即看不见silideBox的内容了 。
-
+ 
 #解决方案
 ###一.使用ng-if
 即不使用缓存，但是这样的弊端就是没有缓存-.-，其实原理就是每次重新渲染slidebox。
